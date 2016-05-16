@@ -1,29 +1,29 @@
 #一个帮助学习进程间通信技术的repo
 
->> 进程间通信技术(Inter-Process Communication)是很重要的UNIX编程学习方向
+> 进程间通信技术(Inter-Process Communication)是很重要的UNIX编程学习方向
 
 ###文件结构
 .
 ├── Create_IPC_key
-│   ├── ftok.c
-│   └── mykey
+│   ├── ftok.c
+│   └── mykey
 ├── Fifo
-│   ├── cli
-│   ├── cli.cpp
-│   ├── fifo_head.h
-│   ├── Makefile
-│   ├── read_fifo
-│   ├── ser
-│   ├── ser.cpp
-│   └── write_fifo
+│   ├── cli
+│   ├── cli.cpp
+│   ├── fifo_head.h
+│   ├── Makefile
+│   ├── read_fifo
+│   ├── ser
+│   ├── ser.cpp
+│   └── write_fifo
 ├── MsgQueue
-│   ├── msgopt
-│   └── msgopt.c
+│   ├── msgopt
+│   └── msgopt.c
 ├── Readme.md
 └── Socket
     ├── bin
     ├── head
-    │   └── socket_head.h
+    │   └── socket_head.h
     ├── Makefile
     └── src
         ├── cli.c
