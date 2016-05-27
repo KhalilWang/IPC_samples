@@ -46,6 +46,10 @@ int main()
     int sfd = socket(AF_INET, SOCK_STREAM, 0);
     assert(sfd != -1);
 
+    /* Set socket resuable */
+    int flag = 1, len = sizeof(int);
+    assert(setsockopt(sfd, SOL_SOCKET, SO_REUSEADDR, &flag, len) != -1);
+
     /* Set Addr */
     struct sockaddr_in saddr;
     saddr.sin_family        = AF_INET;
